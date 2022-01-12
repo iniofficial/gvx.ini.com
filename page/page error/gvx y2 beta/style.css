@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'myfont';
+    background: url(../../../img/more\ page\ background.png) fixed no-repeat;
+    background-size: cover;
+}
+
+nav{
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    padding: 10px;
+}
+nav ul li a.hover,nav a:hover{
+    background: rgba(77, 156, 195, 0.65);
+    transition: .6s;
+}
+
+nav ul{
+    float: right;
+    margin: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+@font-face {
+    font-family: 'myfont';
+    src: url(../../../Roboto-Black.ttf);
+}
+
+.gvx_logo_position{
+    top: 30%;
+    left: 80%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+
+.gvx_logo{
+    font-size: 80px;
+}
+
+
+.gvx_y2_beta_position{
+    top: 30%;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+
+.gvx_y2_beta p{
+    font-size: 30px;
+}
+
+
+.go_home_position{
+    top: 50%;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+
+.go_home_position p{
+    font-size: 20px;
+}
+
+.go_home_position a{
+    text-decoration: none;
+    color: black;
+}

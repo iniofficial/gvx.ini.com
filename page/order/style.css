@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(../../img/more\ page\ background.png) no-repeat;
+    background-size: cover;
+    font-family: 'myfont';
+}
+
+form .gvx select{
+    padding: 13px;
+    background: none;
+    border-radius: 5px;
+    border: 2px solid #0081d5;
+    color: #0081d5;
+    width: 230px;
+}
+
+
+form .info input{
+    padding: 13px;
+    background: none;
+    border: 2px solid #0081d5;
+    border-radius: 5px;
+    width: 200px;
+    color: black;
+}
+
+form .country select{
+    padding: 13px;
+    background: none;
+    border-radius: 5px;
+    border: 2px solid #0081d5;
+    color: #0081d5;
+    width: 230px;
+}
+
+form .country input{
+    padding: 13px;
+    background: none;
+    border: 2px solid #0081d5;
+    border-radius: 5px;
+    width: 200px;
+    color: black;
+}
+
+form .address1 input{
+    padding: 13px;
+    background: none;
+    border: 2px solid #0081d5;
+    border-radius: 5px;
+    width: 435px;
+    color: black;
+}
+
+form .address2 input{
+    padding: 13px;
+    background: none;
+    border: 2px solid #0081d5;
+    border-radius: 5px;
+    width: 435px;
+    color: black;
+}
+
+form button{
+    padding: 12px;
+    border: 2px solid #0081d5;
+    border-radius: 5px;
+    color: #0081d5;
+    width: 464px;
+    background: none;
+    font-size: 20px;
+}
+
+.cen{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.position{
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+@font-face {
+    font-family: 'myfont';
+    font-weight: 100;
+    src: url(../../Roboto-Black.ttf);
+}
+
+.p1_position{
+    top: 30%;
+    left: 80%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.p1{
+    font-size: 80px;
+}
+
+
+nav{
+    top: 5%;
+    left: 75%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    padding: 10px;
+}
+nav ul li a.hover,nav a:hover{
+    background: rgba(77, 156, 195, 0.65);
+    transition: .6s;
+}

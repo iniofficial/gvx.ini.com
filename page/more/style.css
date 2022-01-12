@@ -1,0 +1,62 @@
+nav{
+    top: 5%;
+    left: 81%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    padding: 10px;
+}
+nav ul li a.hover,nav a:hover{
+    background: rgba(77, 156, 195, 0.65);
+    transition: .6s;
+}
+
+
+@font-face{
+    font-family: 'myfont';
+    font-weight: 100;
+    src: url('../../Roboto-Black.ttf');
+}
+
+body{
+    background: url(../../img/more\ page\ background.png);
+    background-size: cover;
+    font-family: 'myfont';
+}
+
+
+.p1{
+    font-family: 'myfont';
+    font-size: 80px;
+}
+
+.gvx_logo_position{
+    top: 30%;
+    left: 80%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.about_position{
+    top: 20%;
+    left: 10%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.line{
+    width: 130%;
+    color: black;
+    border: 2px solid black;
+}
+

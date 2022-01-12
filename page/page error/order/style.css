@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'myfont';
+    background: url(../../../img/more\ page\ background.png) fixed no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'myfont';
+    src: url(../../../Roboto-Black.ttf);
+}
+
+.p1{
+    font-size: 80px;
+}
+
+.p1_position{
+    top: 30%;
+    left: 80%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+nav{
+    top: 5%;
+    left: 75%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    padding: 10px;
+}
+nav ul li a.hover,nav a:hover{
+    background: rgba(77, 156, 195, 0.65);
+    transition: .6s;
+}
+
+.error .p2 p{
+    font-size: 30px;
+}
+
+.error .position2{
+    top: 30%;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.error .position3 .p3{
+    top:50%;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.error .position3 a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,133 @@
+.position{
+    top: 45%;
+    left: 75%;
+    position: absolute;
+    display: flex;
+    transform: translate(-50%,-50%);
+}
+
+.position2{
+    top: 60%;
+    left: 75%;
+    position: absolute;
+    display: flex;
+    transform: translate(-50%,-50%);
+}
+
+.item{
+    padding: 10px;
+}
+
+.btn_out_border{
+    padding: 20px;
+    border: none;
+    background: #0081D5;
+    border-radius: 100px;
+    color: white;
+    font-size: 20px;
+}
+
+.btn_inter_border{
+    padding: 20px;
+    border: 2px solid #0081D5;
+    background: none;
+    border-radius: 100px;
+    color: #0081D5;
+    font-size: 20px;
+}
+
+.btn_out_border2{
+    padding: 20px;
+    width: 305px;
+    border: none;
+    background: #0081D5;
+    border-radius: 100px;
+    color: white;
+    font-size: 20px;
+}
+
+@font-face{
+    font-family: 'myfont';
+    src: url(Roboto-Black.ttf);
+}
+
+body{
+    background: url('gvx site background.png') no-repeat;
+    background-size: cover;
+    font-family: 'myfont';
+}
+
+button{
+    font-family: 'myfont';
+}
+
+
+.position3 p{
+    font-size: 60px;
+}
+
+
+.position3{
+    top: 40%;
+    left: 20%;
+    position: absolute;
+    display: flex;
+    transform: translate(-50%,-50%);
+}
+
+
+.p2{
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.position4{
+    top: 70%;
+    left: 13%;
+    position: absolute;
+    display: flex;
+    transform: translate(-50%,-50%);
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 3 10px;
+}
+
+nav ul{
+    float: right;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    padding: 10px;
+}
+nav ul li a.hover,nav a:hover{
+    background: rgba(77, 156, 195, 0.65);
+    transition: .6s;
+}
+
+.event .event-position .event-2022 h2{
+    font-size: 50px;
+    color: black;
+}
+
+.event .event-position{
+    top: 50%;
+    left: 3%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.event .event-position .event-2022{
+    background: white;
+    border-radius: 20px;
+}

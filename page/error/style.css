@@ -1,0 +1,58 @@
+body{
+    font-family: 'myfont';
+    background: url('../../img/more\ page\ background.png') no-repeat;
+    background-size: cover;
+}
+
+
+@font-face{
+    font-family: 'myfont';
+    font-weight: 100;
+    src: url(../../Roboto-Black.ttf);
+}
+
+
+.p1{
+    font-size: 50px;
+}
+
+nav{
+    top: 5%;
+    left: 81%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    padding: 10px;
+}
+nav ul li a.hover,nav a:hover{
+    background: rgba(77, 156, 195, 0.65);
+    transition: .6s;
+}
+
+.p1_position{
+    top: 30%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.p2_position{
+    top: 45%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.p2{
+    font-size: 30px;
+}
